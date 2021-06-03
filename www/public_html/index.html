@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>667 Server Project Landing Page</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="/js/image-test.js"></script>
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="container">
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Quick Test: <span class="text-muted">Image and text.</span></h2>
+          <p class="lead">You should be able to see an image, and this page should be styled.</p>
+        </div>
+        <div class="col-md-5">
+          <img class="featurette-image img-responsive" src="images/sushi.jpg" alt="Sushi on the beach" />
+        </div>
+      </div>
+      <hr class="featurette-divider">
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="img-circle" src="//placehold.it/140x140" alt="Generic placeholder image">
+          <h2>Thread Test</h2>
+          <p>Click the button to load a small text file and a very large image asynchronously.</p>
+          <p><a id="thread-test" class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="//placehold.it/140x140" alt="Generic placeholder image">
+          <h2>401/403</h2>
+          <p>Click the button to go to a protected directory. You should see the Auth challenge...</p>
+          <p><a class="btn btn-default" href="/protected/" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img class="img-circle" src="//placehold.it/140x140" alt="Generic placeholder image">
+          <h2>Some CGI Scripts</h2>
+          <p>The CGI scripts assume standard paths for 'sh' and 'perl'. You may need to change the #!.</p>
+          <p><a href="/cgi-bin/perl_env">A perl script</a></p>
+          <p><a href="/cgi-bin/basic_args.sh">A shell script</a></p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+      <hr class="featurette-divider">
+      <div id="thread-test-row" class="row">
+        <h4>Thread Test (click above)</h4>
+        <div class="col-lg-4">
+          <p>This should get replaced by some text.</p>
+        </div>
+        <div class="col-lg-8">
+          <p>This should get replaced by the image.</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

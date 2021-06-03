@@ -1,0 +1,4 @@
+AuthUserFile "../conf/.htpasswd"
+AuthType Basic
+AuthName "Protected Directory"
+Require valid-user
