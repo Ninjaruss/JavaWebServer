@@ -2,7 +2,7 @@
 A group project for CSC667 Internet App Design & Dev Fall 2020.
 
 ## Members
-Harsh Saxena - Project Lead & Backend Developer
+Harsh Saxena - Project Lead & Backend Developer  
 Russell Azucenas - Backend Developer  
 
 ## Project Description
